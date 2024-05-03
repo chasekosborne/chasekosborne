@@ -4,7 +4,11 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-  }
+}
+
+u {
+    text-decoration: underline;
+}
 
 @media only screen and (min-width:1500px) {
   body {
@@ -118,8 +122,6 @@
 
 .about_coulumna {
     flex: 20%;
-    ;
-    
 }
 
 .about_coulumnb {
@@ -226,7 +228,6 @@ p.about_txt {
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 0.2s;
 }
 
 .an2 {
@@ -235,7 +236,7 @@ p.about_txt {
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 0.4s;
+    animation-delay: 0.2s;
 }
 .workpanel .text {
     flex:40%;
