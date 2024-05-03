@@ -174,6 +174,10 @@ p.about_txt {
 
 
 /*work*/
+
+.workpanel{
+}
+
 @media only screen and (min-width:1500px) {
     .workpanel {
             display:flex;
@@ -207,7 +211,6 @@ p.about_txt {
             padding-bottom: 30px;
             padding-left:20px;
             padding-right:20px;
-            background-color: #080d29;
             position: relative;
     }
 
@@ -218,11 +221,32 @@ p.about_txt {
     }
 }
 
+.an1 {
+    opacity: 0%;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 0.2s;
+}
 
+.an2 {
+    opacity: 0%;
+
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 0.4s;
+}
 .workpanel .text {
     flex:40%;
-    color: white;
+    color: #dbdbdb;
     font-family: 'Times New Roman', Times, serif;
+}
+
+.workpanel .text .date {
+    color: white;
+    font-size: 14px;
+    font-style: italic;
 }
 
 .workpanel .text .title {
@@ -235,3 +259,13 @@ p.about_txt {
     aspect-ratio: 16 / 9;
     width:90%;
   }
+
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
